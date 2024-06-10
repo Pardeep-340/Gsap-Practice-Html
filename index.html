@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div style="max-width: 1140px; margin: auto; padding: 0 12px;">
+        <div style="height: 100vh;"></div>
+        <div style="height: 100vh;" id="main_parent">
+            <div style="position: relative;">
+                <div
+                    style="display: flex; align-items: center ; justify-content: space-between;position: absolute; top: 3px; width: 100%;">
+                    <button id="buttonOne"
+                        style=" background: yellow; padding: 10px 20px; border-radius: 4px; z-index: 1; ">One</button>
+                    <button id="buttonTwo"
+                        style="background: yellow; padding: 10px 20px; border-radius: 4px; z-index: 1; ">Two</button>
+                    <button id="buttonThree"
+                        style=" background: yellow; padding: 10px 20px; border-radius: 4px; z-index: 1; ">Three</button>
+                    <button id="buttonFour"
+                        style=" background: yellow; padding: 10px 20px; border-radius: 4px; z-index: 1; ">Four</button>
+                </div>
+                <div id="line"
+                    style="position: absolute; top: 20px; left: 0; height: 5px; background-color: red; width: 0%;">
+                </div>
+            </div>
+            <div style="display: flex; align-items: center; gap: 40px; padding-top:100px;" id="box_parent">
+                <div class="box"
+                    style="background-color: black; border-radius: 10px; min-width: 1140px; height: 450px;"></div>
+                <div class="box"
+                    style="background-color: black; border-radius: 10px; min-width: 1140px; height: 450px;"></div>
+                <div class="box"
+                    style="background-color: black; border-radius: 10px; min-width: 1140px; height: 450px;"></div>
+                <div class="box"
+                    style="background-color: black; border-radius: 10px; min-width: 1140px; height: 450px;"></div>
+            </div>
+        </div>
+        <div style="height: 100vh;"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="./gsap.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.2/dist/lenis.min.js"></script>
+</body>
+
+</html>
